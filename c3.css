@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+}
+
+div {
+  height: 400px;
+  width: 200px;
+  position: absolute;
+}
+div:nth-child(1) {
+  right: 51.5%;
+  background-color: tomato;
+}
+
+div:nth-child(2) {
+  left: 51.5%;
+  background-color: teal;
+}
+div:nth-child(3) {
+  right: 51.5%;
+  top: 40.5%;
+  background-color: burlywood;
+}
+
+div:nth-child(4) {
+  left: 51.5%;
+  top: 40.5%;
+  background-color: thistle;
+}
+h2,
+h3 {
+  background-color: white;
+}
