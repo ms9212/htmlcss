@@ -1,0 +1,68 @@
+@keyframes c4 {
+  50% {
+    transform: rotate(0.5turn);
+  }
+
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+@keyframes cc4 {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+
+  50%,
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+body {
+  background-color: darkcyan;
+}
+
+div {
+  background-color: white;
+}
+
+form {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  margin: 2%;
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+}
+
+.s {
+  margin: 1%;
+  height: 100px;
+  width: 10px;
+  animation: cc4 1s linear infinite;
+}
+
+.o {
+  animation: c4 1s ease-out infinite;
+}
+
+.s2 {
+  animation-delay: 0.1s;
+}
+.s3 {
+  animation-delay: 0.2s;
+}
+.s4 {
+  animation-delay: 0.3s;
+}
+.s5 {
+  animation-delay: 0.4s;
+}
