@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 8vh;
+  width: 100%;
+  background-color: green;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:nth-child(2) {
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+}
+.status-bar__column:nth-child(3) {
+  text-align: right;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+.search-bar__border {
+  display: flex;
+  justify-items: center;
+  position: relative;
+}
+.search-bar__box {
+  border: 0px solid black;
+  border-radius: 20px;
+  border-bottom-width: 4px;
+  border-bottom-color: rgb(229, 229, 227);
+  padding: 10px;
+  width: 30vh;
+  position: relative;
+  bottom: 50%;
+}
+h2 {
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+header {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.main-color {
+  display: flex;
+}
+.main-color__box {
+  width: 20vh;
+  height: 20vh;
+  background-color: blue;
+  border-radius: 8px;
+}
+.main-color__text {
+  margin-left: 10%;
+}
+.main-color__text:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+.main-color__text:last-child {
+  font-size: 17px;
+  opacity: 0.5;
+  margin-right: 5%;
+  line-height: 150%;
+}
+
+.top-color {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+.top-color__space {
+  display: flex;
+}
+.top-color__box {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 8px;
+}
+.top-color__box:nth-child(1) {
+  background-color: wheat;
+  margin: 2%;
+}
+.top-color__box:nth-child(2) {
+  background-color: teal;
+  margin: 2%;
+}
+.top-color__box:nth-child(3) {
+  background-color: tomato;
+  margin: 2%;
+}
+
+.popular-color {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.popular-color__content {
+  display: flex;
+}
+.popular-color__space {
+  display: flex;
+}
+.popular-color__box {
+  width: 15vh;
+  height: 20vh;
+  background-color: black;
+  border-radius: 8px;
+}
+.popular-color__textbox {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.popular-color__text:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+.popular-color__text:last-child {
+  font-size: 17px;
+  opacity: 0.5;
+  line-height: 150%;
+}
